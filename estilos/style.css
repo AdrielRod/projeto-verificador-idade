@@ -42,3 +42,18 @@ section{
     padding: 7px;
 }
 
+@media screen and (max-width: 767px) {
+    section{
+        width: 70vw;
+        background-color: white;
+        margin: auto;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.377);
+        border-radius: 10px;
+        padding: 17px;
+    
+    } 
+    #iImagem{
+        width: 70vw;
+        border-radius: 20px;
+    }
+}

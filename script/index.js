@@ -33,7 +33,7 @@ function verificar()
         }
         if(idade > 12 && idade < 18){
             imagem.src = "imagens/adolFem.jpg"
-            document.getElementById("container").style.height = "75vh"
+            document.getElementById("container").style.height = "78vh"
             document.getElementById("iRes").innerText = `Você tem ${idade} anos de idade`
         }
         if(idade > 17){
