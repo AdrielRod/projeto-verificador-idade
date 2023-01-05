@@ -7,6 +7,8 @@ function verificar()
     var idade = Number(2023) - Number(anoNasc.value)
     var digitou = false
 
+    if (document.getElementById("inasc") == typeof(Number)){
+
     if(document.getElementById("imasc").checked){
         if(idade > 0 && idade < 13){
             imagem.src = "imagens/criancaMasc.jpg"
@@ -24,6 +26,7 @@ function verificar()
             document.getElementById("iRes").innerText = `Você tem ${idade} anos de idade`
         }
     }
+
     else
     {
         if(idade < 12){
@@ -43,4 +46,8 @@ function verificar()
             document.getElementById("iRes").innerText = `Você tem ${idade} anos de idade`
         }
     }
+}
+else{
+    alert("Você deve digitar um numero")
+}
 }
